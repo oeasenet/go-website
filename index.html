@@ -2,10 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://github.com/oeasenet">
-    <title>OEASE GOLANG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OEASE Go Packages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    Redirecting...
+<body class="bg-gray-100 text-gray-900 antialiased">
+    <div class="container mx-auto px-4 py-8">
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-indigo-600">OEASE Go Packages</h1>
+            <p class="mt-4 text-xl text-gray-600">A collection of Go modules by OEASE.</p>
+        </header>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- GOE Module -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <h2 class="text-2xl font-semibold text-indigo-700 mb-2">go.oease.dev/goe</h2>
+                <p class="text-gray-700 mb-4">The main OEASE Go Framework module.</p>
+                <div class="flex justify-between items-center">
+                    <a href="https://pkg.go.dev/go.oease.dev/goe" target="_blank" class="text-indigo-500 hover:text-indigo-700 font-medium">GoDoc</a>
+                    <a href="/goe" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
+                        Repository
+                    </a>
+                </div>
+                 <p class="text-xs text-gray-500 mt-3">Import path: <code class="bg-gray-200 p-1 rounded">go.oease.dev/goe</code></p>
+            </div>
+
+            <!-- GOE v2 Module -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <h2 class="text-2xl font-semibold text-indigo-700 mb-2">go.oease.dev/goe/v2</h2>
+                <p class="text-gray-700 mb-4">Version 2 of the OEASE Go Framework module.</p>
+                <div class="flex justify-between items-center">
+                     <a href="https://pkg.go.dev/go.oease.dev/goe/v2" target="_blank" class="text-indigo-500 hover:text-indigo-700 font-medium">GoDoc</a>
+                     <a href="/goe/v2" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
+                        Repository (v2)
+                    </a>
+                </div>
+                <p class="text-xs text-gray-500 mt-3">Import path: <code class="bg-gray-200 p-1 rounded">go.oease.dev/goe/v2</code></p>
+            </div>
+
+            <!-- OMGO Module -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <h2 class="text-2xl font-semibold text-indigo-700 mb-2">go.oease.dev/omgo</h2>
+                <p class="text-gray-700 mb-4">OEASE OMGO module for MongoDB interactions.</p>
+                <div class="flex justify-between items-center">
+                    <a href="https://pkg.go.dev/go.oease.dev/omgo" target="_blank" class="text-indigo-500 hover:text-indigo-700 font-medium">GoDoc</a>
+                    <a href="/omgo" class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded transition-colors duration-300">
+                        Repository
+                    </a>
+                </div>
+                <p class="text-xs text-gray-500 mt-3">Import path: <code class="bg-gray-200 p-1 rounded">go.oease.dev/omgo</code></p>
+            </div>
+        </div>
+
+        <footer class="text-center mt-16 py-6 border-t border-gray-300">
+            <p class="text-gray-600">&copy; <script>document.write(new Date().getFullYear())</script> OEASE. All rights reserved.</p>
+            <p class="text-gray-500 text-sm mt-1">
+                Powered by <a href="https://github.com/oeasenet" class="hover:text-indigo-500">OEASE Gophers</a>
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
